@@ -3,7 +3,7 @@ package br.com.appdahora.springintro.models;
 import lombok.Data;
 
 @Data
-public class Motor {
+public class MotorPasseio {
 
     private int potencia;
 

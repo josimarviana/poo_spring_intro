@@ -1,7 +1,7 @@
 package br.com.appdahora.springintro.controller;
 
 import br.com.appdahora.springintro.models.Carro;
-import br.com.appdahora.springintro.models.Motor;
+import br.com.appdahora.springintro.models.MotorEsportivo;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -13,7 +13,7 @@ public class PrimeiroController {
     @GetMapping("/hello")
     @ResponseBody
     public String hello(){
-        Motor motor = new Motor();
+        MotorEsportivo motor = new MotorEsportivo();
         carro = new Carro();
         carro.setMotor(motor);
 
